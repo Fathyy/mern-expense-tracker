@@ -1,0 +1,6 @@
+.chart-container{
+    background-color: var(--bgSoft);
+    padding: 1rem;
+    border-radius: 20px;
+    height: 100%;
+}

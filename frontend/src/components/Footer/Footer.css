@@ -1,0 +1,17 @@
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7rem;
+    color: var(--textSoft);
+    background-color: var(--bgSoft);
+    padding: 2rem 1rem;
+  }
+  
+  .logo {
+    font-weight: bold;
+  }
+  
+  .text {
+    font-size: 12px;
+  }

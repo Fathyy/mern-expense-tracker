@@ -1,0 +1,42 @@
+import { FaBitcoin, FaBookOpen, FaAddressCard, FaComment, FaDollarSign, FaMoneyBill, FaPiggyBank, FaRegTrashAlt, FaUsers, FaYoutube } from "react-icons/fa";
+import { SlCalender } from "react-icons/sl";
+import { CiCircleCheck, CiMedicalCase } from "react-icons/ci";
+import { GiClothes } from "react-icons/gi";
+import { FaBowlFood } from "react-icons/fa6";
+import { SiFreelancer } from "react-icons/si";
+import { AiOutlineStock } from "react-icons/ai";
+import { RiTakeawayFill } from "react-icons/ri";
+import { PiTelevision } from "react-icons/pi";
+import { FaPlus } from "react-icons/fa6";
+
+
+// export const dashboard = <FaBitcoin />;
+// export const transactions = <FaDollarSign />;
+// export const categories = <FaBookOpen />;
+// export const accounts = <FaAddressCard />;
+// export const settings = <FaComment />;
+// export const logout = <FaRegTrashAlt />;
+// export const trend = <FaMoneyBill />;
+// export const expenses = <FaPiggyBank />;
+export const money = <FaDollarSign />;
+export const freelance = <SiFreelancer />;
+export const stocks = <AiOutlineStock />;
+export const bitcoin = <FaBitcoin />;
+export const piggy = <FaPiggyBank />;
+export const yt = <FaYoutube />;
+export const card = <FaAddressCard />;
+export const users = <FaUsers />;
+export const dollar = <FaDollarSign />;
+export const calender = <SlCalender />;
+export const comment = <FaComment />;
+export const trash = <FaRegTrashAlt />;
+export const signout = <FaRegTrashAlt />;
+export const takeaway = <RiTakeawayFill />;
+export const clothing = <GiClothes />;
+export const book = <FaBookOpen />;
+export const food = <FaBowlFood />;
+export const medical = <CiMedicalCase />;
+export const tv = <PiTelevision />;
+export const circle = <CiCircleCheck />;
+export const plus = <FaPlus />;
+
