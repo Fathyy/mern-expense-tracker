@@ -2,6 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import { db } from './db/db.js';
+import transactionsRoute from './routes/transactions.js'; // Import the transactions route
 dotenv.config();
 
 const app = express();
@@ -15,6 +16,9 @@ app.use(cors());
 app.get('/', (req, res) => {
     res.send('Hello, World!');
 });
+
+// Use the transactions route
+app.use('/api/transactions', transactionsRoute);
 
 const server = () => {
     db();
