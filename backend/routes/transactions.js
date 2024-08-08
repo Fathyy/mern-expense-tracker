@@ -1,7 +1,7 @@
 // You define routes in this file using express library
 import express from 'express';
-import { addIncome, deleteIncome, getIncomes } from '../controllers/incomes';
-import { addExpense, deleteExpenses, getExpenses } from '../controllers/expenses';
+import { addIncome, deleteIncome, getIncomes } from '../controllers/incomes.js';
+import { addExpense, deleteExpenses, getExpenses } from '../controllers/expenses.js';
 
 const router = express.Router();
 
