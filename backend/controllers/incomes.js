@@ -1,4 +1,4 @@
-import IncomeSchema from "../models/IncomeSchema.j";
+import IncomeSchema from "../models/IncomeSchema.js";
 
 // adding the income
 export const addIncome = async (req, res) => {
