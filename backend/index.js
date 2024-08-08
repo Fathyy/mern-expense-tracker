@@ -11,6 +11,10 @@ const PORT = process.env.PORT;
 app.use(express.json());
 app.use(cors());
 
+// Define a route for the root URL
+app.get('/', (req, res) => {
+    res.send('Hello, World!');
+});
 
 const server = () => {
     db();
