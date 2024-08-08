@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import { db } from './db/db.js';
-import transactionsRoute from './routes/transactions.js'; // Import the transactions route
+import transactionsRoute from './routes/transactions.js'; 
 dotenv.config();
 
 const app = express();
